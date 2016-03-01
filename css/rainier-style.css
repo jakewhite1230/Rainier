@@ -126,3 +126,40 @@ body{
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
+
+
+.dashboard-container{
+	max-width: 1430px;
+	position: relative;
+	padding: 0px 15px;
+	top: 20px;
+}
+
+.floating-module{
+	background-color: #fff;
+	width: 48%;
+	padding: 15px;
+	border-radius: 5px;
+	box-shadow: 2px  #D9D9D9;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	float: left;
+	margin-right: 20px;
+}
+
+.floating-title{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+.floating-module hr{
+	margin-top: 0px;
+}
+
+.floating-module tbody{
+	border:none;
+}
+
+.floating-module a{
+	color: #333645;
+}
