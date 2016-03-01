@@ -51,6 +51,62 @@ body{
 	font-weight: 700;
 }
 
+#side-navigation{
+	padding-top: 15px;
+}
+
+#side-navigation ul{
+	margin-left: 0px;
+}
+
+#side-navigation li{
+	list-style: none;
+	font-weight: 700;
+	padding: 20px 20px;
+}
+
+#side-navigation .fa{
+	font-size: 1.5em;
+    margin-right: 12px;
+    width: 25px;
+    text-align: center;
+}
+
+.message-count{
+	color: #fff;
+	background-color: #f05555;
+	border-radius: 24px;
+    margin-left: 5px;
+    padding: 3px 8px;
+}
+
+#settings-nav{
+	position: absolute;
+	bottom: 0px;
+}
+#settings-nav li{
+	float: left;
+	padding: 5px 5px;
+}
+
+#settings-nav li:nth-child(1){
+	margin-left: 20px;
+}
+
+#settings-nav .fa{
+	margin-right: 0px;
+}
+#side-navigation .active{
+	background-color: rgba(0,0,0,0.3);
+}
+#side-navigation li:hover{
+	background-color: rgba(0,0,0,0.3);
+}
+
+#side-navigation li a{
+	color: #EBEBEB;
+}
+
 .dashboard{
 	width: 100%;
 	padding-left: 250px;
